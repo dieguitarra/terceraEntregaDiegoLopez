@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/*CLASES DE MÚSICA*/
+.bodyClasesDeMusica {
+  background-image: url(../img/comoLeerPartituras.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tituloClasesDeMusica {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  padding: 20px;
+}
+
+.parrafoClasesDeMusica {
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.507);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+/*CONTACTO*/
+.bodyContacto {
+  background-image: url(../img//fondo.jpg);
+  background-size: cover;
+}
+
+body {
+  background: white;
+}
+
+.titulosEnAmarillo {
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.links {
+  -webkit-transition: all 0.3s !important;
+  transition: all 0.3s !important;
+}
+
+.links:hover {
+  color: red !important;
+  -webkit-transform: scale(1.1) !important;
+          transform: scale(1.1) !important;
+}
+
+.imagenesObras {
+  border-radius: 15px;
+  border: solid black 2px;
+}
+
+.slide img {
+  height: 100%;
+  width: 100%;
+}
+
+.img-logo {
+  height: 150px;
+  width: 150px;
+}
+
+.img-logo-1 {
+  height: 75px;
+  width: 75px;
+}
+
+.banner {
+  width: 100%;
+}
+
+/*SOBRE MI*/
+.bodySobreMi {
+  background: black;
+}
+
+.sectionBio {
+  background-image: url(../img/oeba.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.carousel-inner {
+  background-image: url(../img/musicaLibreGratis.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,258 +1,391 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      <link
-         href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
-         rel="stylesheet"
-         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
-         crossorigin="anonymous"
-         />
-      <script
-         src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
-         crossorigin="anonymous"
-         ></script>
-      <script
-         src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
-         integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
-         crossorigin="anonymous"
-         ></script>
-      <script
-         src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
-         integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
-         crossorigin="anonymous"
-         ></script>
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-      <link rel="stylesheet" href="./css/style.css" />
-      <title>Dieguitarra</title>
-   </head>
-   <body class="vh-100 bg-dark text-light"></body>
-   <!--HEADER-->
-   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-         <a class="navbar-brand" href="#">Dieguitarra</a>
-         <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarTogglerDemo02"
-            aria-controls="navbarTogglerDemo02"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sitio web del músico Diego López (Dieguitarra), en este sitio encontrarás su música compuesta y todo acerca de sus clases de música"
+    />
+    <meta name="keywords" content="dieguitarra, diegoLopez, clasesDeMusica" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+      integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+      integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./scss/style.css" />
+    <title>Home - Dieguitarra</title>
+  </head>
+  <body class="vh-100 bg-ligth text-light"></body>
+  <!--HEADER-->
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Dieguitarra </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a
+              class="nav-link links"
+              aria-current="page"
+              href="./views/sobre-mi.html"
+              >Sobre mí</a
             >
-         <span class="navbar-toggler-icon"></span>
-         </button>
-         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-               <li class="nav-item">
-                  <a class="nav-link links" aria-current="page" href="./views/sobre-mi.html">Sobre mí</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link links" href="./views/clases-de-musica.html" tabindex="-1" aria-disabled="true"
-                  >Clases de música</a
-                  >
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link links" href="#Redes" tabindex="-1" aria-disabled="true"
-                     >Redes</a
-                     >
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link links" href="./views/contacto.html">Contacto</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link links" href="#" tabindex="-1" aria-disabled="true"
-                     >Canal de Youtube</a
-                     >
-               </li>
-            </ul>
-            <form class="d-flex">
-               <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                  />
-               <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-         </div>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link links"
+              href="./views/clases-de-musica.html"
+              tabindex="-1"
+              aria-disabled="true"
+              >Clases de música</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link links"
+              href="#Redes"
+              tabindex="-1"
+              aria-disabled="true"
+              >Redes</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link links" href="./views/contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link links"
+              href="#"
+              tabindex="-1"
+              aria-disabled="true"
+              >Canal de Youtube</a
+            >
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Buscar"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
       </div>
-   </nav>
-   <!--FIN HEADER-->
-   <!--MAIN-->
-   <main>
-      <!--SECTION 1-->
-      <div
-         id="carouselExampleIndicators"
-         class="carousel slide py-5 my-2"
-         data-bs-ride="carousel"
-         >
-         <div class="carousel-indicators">
-            <button
-               type="button"
-               data-bs-target="#carouselExampleIndicators"
-               data-bs-slide-to="0"
-               class="active"
-               aria-current="true"
-               aria-label="Slide 1"
-               ></button>
-            <button
-               type="button"
-               data-bs-target="#carouselExampleIndicators"
-               data-bs-slide-to="1"
-               aria-label="Slide 2"
-               ></button>
-            <button
-               type="button"
-               data-bs-target="#carouselExampleIndicators"
-               data-bs-slide-to="2"
-               aria-label="Slide 3"
-               ></button>
-            <button
-               type="button"
-               data-bs-target="#carouselExampleIndicators"
-               data-bs-slide-to="3"
-               aria-label="Slide 4"
-               ></button>
-         </div>
-         <div class="carousel-inner">
-            <div class="carousel-item active">
-               <img src="./img/carousel1.jpg" class="d-block w-50 mx-auto img-fluid" alt="..." />
-            </div>
-            <div class="carousel-item">
-               <img src="./img/carousel2.jpg" class="d-block w-50 mx-auto img-fluid" alt="..." />
-            </div>
-            <div class="carousel-item">
-               <img src="./img/carousel3.jpg" class="d-block w-50 mx-auto img-fluid" alt="..." />
-            </div>
-            <div class="carousel-item">
-               <img src="./img/carousel4.jpg" class="d-block w-50 mx-auto img-fluid" alt="..." />
-            </div>
-         </div>
-         <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev"
-            >
-         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-         <span class="visually-hidden">Previous</span>
-         </button>
-         <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next"
-            >
-         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-         <span class="visually-hidden">Next</span>
-         </button>
-      </div>
-      <!--FIN SECTION 1-->
-      <!--SECTION 2-->
-      <div class="section-2">
-         <h2 class="py-2 mb-5 d-flex justify-content-center text-warning titulosEnAmarillo">Obras Compuestas</h2>
-         <section class="container">
-         <div class="row">
-            <div class="col-lg-5  col-sm-12  text-dark">
-               <h2 class="d-flex justify-content-center mt-2 py-2 fw-bold">Sonata para piano</h2>
-               <img src="./img/pianoObras.jpg" alt="" class="imagenesObras d-flex mx-auto img-fluid">
-               <h3 class="py-2 d-flex justify-content-center">Sonata 1er mov.</h3>
-               <audio src="./audios/sonata-1er-mov.mp3" controls class="d-flex mx-auto"></audio>
-               <h3 class="py-2 d-flex justify-content-center">Sonata 2do mov.</h3>
-               <audio src="./audios/sonata-2do-mov.mp3" controls class="d-flex mx-auto"></audio>
-               <h3 class="py-2 d-flex justify-content-center">Sonata 3er mov.</h3>
-               <audio src="./audios/sonata-3er-mov.mp3" controls class="d-flex mx-auto mb-5"></audio>
-            </div>
-            <div class="col-lg-5 offset-lg-2  col-lg-5 col-sm-12 text-dark">
-               <h2 class="d-flex justify-content-center mt-2 py-2 fw-bold">Cuarteto de cuerdas</h2>
-               <img src="./img/violinObras.jpg" alt="" class="imagenesObras d-flex mx-auto img-fluid">
-               <h3 class="py-2 d-flex justify-content-center">Cuarteto de cuerdas 1er mov.</h3>
-               <audio src="./audios/cuarteto-de-cuerdas-I.mp3" controls class="audios d-flex mx-auto"></audio>
-               <h3 class="py-2 d-flex justify-content-center">Cuarteto de cuerdas 2do mov.</h3>
-               <audio src="./audios/cuarteto-de-cuerdas-II.mp3" controls class="audios d-flex mx-auto"></audio>
-               <h3 class="py-2 d-flex justify-content-center">Cuarteto de cuerdas 3er mov.</h3>
-               <audio src="./audios/cuarteto-de-cuerdas-III.mp3" controls class="audios mb-4 d-flex mx-auto mb-5"></audio>
-            </div>
-         </div>
+    </div>
+  </nav>
+  <!--FIN HEADER-->
+  <!--MAIN-->
+  <main>
+    <!--SECTION 1-->
+    <section>
+      <img class="img-fluid banner" src=".//img/banner.png" alt="" />
+    </section>
+    <!--FIN SECTION 1-->
+    <!--SECTION 2-->
+    <div class="section-2">
+      <h1
+        class="
+          pt-5
+          mb-3
+          d-flex
+          justify-content-center
+          text-warning
+          titulosEnAmarillo
+        "
+      >
+        Obras Compuestas
+      </h1>
+      <section class="container">
+        <div class="row">
+          <div class="col-lg-5 col-sm-12 text-dark">
+            <h2 class="d-flex justify-content-center mt-2 py-2 fw-bold">
+              Sonata para piano
+            </h2>
+            <img
+              src="./img/pianoObras.jpg"
+              alt="sonata para piano"
+              class="imagenesObras d-flex mx-auto img-fluid"
+            />
+            <h3 class="py-2 d-flex justify-content-center">Sonata 1er mov.</h3>
+            <audio
+              src="./audios/sonata-1er-mov.mp3"
+              controls
+              class="d-flex mx-auto"
+            ></audio>
+            <h3 class="py-2 d-flex justify-content-center">Sonata 2do mov.</h3>
+            <audio
+              src="./audios/sonata-2do-mov.mp3"
+              controls
+              class="d-flex mx-auto"
+            ></audio>
+            <h3 class="py-2 d-flex justify-content-center">Sonata 3er mov.</h3>
+            <audio
+              src="./audios/sonata-3er-mov.mp3"
+              controls
+              class="d-flex mx-auto mb-5"
+            ></audio>
+          </div>
+          <div class="col-lg-5 offset-lg-2 col-lg-5 col-sm-12 text-dark">
+            <h2 class="d-flex justify-content-center mt-2 py-2 fw-bold">
+              Cuarteto de cuerdas
+            </h2>
+            <img
+              src="./img/violinObras.jpg"
+              alt="cuarteto de cuerdas"
+              class="imagenesObras d-flex mx-auto img-fluid"
+            />
+            <h3 class="py-2 d-flex justify-content-center">
+              Cuarteto de cuerdas 1er mov.
+            </h3>
+            <audio
+              src="./audios/cuarteto-de-cuerdas-I.mp3"
+              controls
+              class="audios d-flex mx-auto"
+            ></audio>
+            <h3 class="py-2 d-flex justify-content-center">
+              Cuarteto de cuerdas 2do mov.
+            </h3>
+            <audio
+              src="./audios/cuarteto-de-cuerdas-II.mp3"
+              controls
+              class="audios d-flex mx-auto"
+            ></audio>
+            <h3 class="py-2 d-flex justify-content-center">
+              Cuarteto de cuerdas 3er mov.
+            </h3>
+            <audio
+              src="./audios/cuarteto-de-cuerdas-III.mp3"
+              controls
+              class="audios mb-4 d-flex mx-auto mb-5"
+            ></audio>
+          </div>
+        </div>
       </section>
       <section class="container">
-         <div class="row">
-            <div class="col-lg-5  col-sm-12  text-dark">
-               <h2 class="d-flex justify-content-center mt-2 py-2 fw-bold">Sexteto de cámara</h2>
-               <img src="./img/sextetoObras.jpg" alt="" class="imagenesObras d-flex mx-auto img-fluid">
-               <h3 class="py-2 d-flex justify-content-center">Sexteto de cámara 1er mov.</h3>
-               <audio src="./audios/sexteto-de-camara-I.mp3" controls class="audios d-flex mx-auto"></audio>
-               <h3 class="py-2 d-flex justify-content-center">Sexteto de cámara 2do mov.</h3>
-               <audio src="./audios/sexteto-de-camara-II.mp3" controls class="audios d-flex mx-auto"></audio>
-               <h3 class="py-2 d-flex justify-content-center">Sexteto de cámara 3er mov.</h3>
-               <audio src="./audios/sexteto-de-camara-III.mp3" controls class="audios d-flex mx-auto"></audio>
-               <h3 class="py-2 d-flex justify-content-center">Sexteto de cámara 4to mov.</h3>
-               <audio src="./audios/sexteto-de-camara-IV.mp3" controls class="audios d-flex mx-auto"></audio>
-               <h3 class="py-2 d-flex justify-content-center">Sexteto de cámara 5to mov.</h3>
-               <audio src="./audios/sexteto-de-camara-V.mp3" controls class="audios d-flex mx-auto"></audio>
-               <h3 class="py-2 d-flex justify-content-center">Sexteto de cámara 6to mov</h3>
-               <audio src="./audios/sexteto-de-camara-VI.mp3" controls class="audios d-flex mx-auto mb-5"></audio>
-            </div>
-            <adiv class="col-lg-5 offset-lg-2  col-lg-5 col-sm-12 text-dark">
-               <h2 class="d-flex justify-content-center mt-2 py-2 fw-bold">Sinfonía</h2>
-               <img src="./img/orquestaObras.jpg" alt="" class="imagenesObras d-flex mx-auto img-fluid">
-               <h3 class="py-2 d-flex justify-content-center">Sinfonía 1er mov.</h3>
-               <audio src="./audios/sinfonia-1er-mov.mp3" controls class="audios d-flex mx-auto"></audio>
-               <h3 class="py-2 d-flex justify-content-center">Sinfonía 2do mov.</h3>
-               <audio src="./audios/sinfonia-2ndo-mov.mp3" controls class="audios d-flex mx-auto"></audio>
-               <h3 class="py-2 d-flex justify-content-center">Sinfonía 3er mov.</h3>
-               <audio src="./audios/sinfonia-3er-mov.mp3" controls class="audios d-flex mx-auto mb-5" ></audio>
-            </adiv>
-         </div>
+        <div class="row">
+          <div class="col-lg-5 col-sm-12 text-dark">
+            <h2 class="d-flex justify-content-center mt-2 py-2 fw-bold">
+              Sexteto de cámara
+            </h2>
+            <img
+              src="./img/sextetoObras.jpg"
+              alt="sexteto de cámara"
+              class="imagenesObras d-flex mx-auto img-fluid"
+            />
+            <h3 class="py-2 d-flex justify-content-center">
+              Sexteto de cámara 1er mov.
+            </h3>
+            <audio
+              src="./audios/sexteto-de-camara-I.mp3"
+              controls
+              class="audios d-flex mx-auto"
+            ></audio>
+            <h3 class="py-2 d-flex justify-content-center">
+              Sexteto de cámara 2do mov.
+            </h3>
+            <audio
+              src="./audios/sexteto-de-camara-II.mp3"
+              controls
+              class="audios d-flex mx-auto"
+            ></audio>
+            <h3 class="py-2 d-flex justify-content-center">
+              Sexteto de cámara 3er mov.
+            </h3>
+            <audio
+              src="./audios/sexteto-de-camara-III.mp3"
+              controls
+              class="audios d-flex mx-auto"
+            ></audio>
+            <h3 class="py-2 d-flex justify-content-center">
+              Sexteto de cámara 4to mov.
+            </h3>
+            <audio
+              src="./audios/sexteto-de-camara-IV.mp3"
+              controls
+              class="audios d-flex mx-auto"
+            ></audio>
+            <h3 class="py-2 d-flex justify-content-center">
+              Sexteto de cámara 5to mov.
+            </h3>
+            <audio
+              src="./audios/sexteto-de-camara-V.mp3"
+              controls
+              class="audios d-flex mx-auto"
+            ></audio>
+            <h3 class="py-2 d-flex justify-content-center">
+              Sexteto de cámara 6to mov
+            </h3>
+            <audio
+              src="./audios/sexteto-de-camara-VI.mp3"
+              controls
+              class="audios d-flex mx-auto mb-5"
+            ></audio>
+          </div>
+          <adiv class="col-lg-5 offset-lg-2 col-lg-5 col-sm-12 text-dark">
+            <h2 class="d-flex justify-content-center mt-2 py-2 fw-bold">
+              Sinfonía
+            </h2>
+            <img
+              src="./img/orquestaObras.jpg"
+              alt="sinfonía"
+              class="imagenesObras d-flex mx-auto img-fluid"
+            />
+            <h3 class="py-2 d-flex justify-content-center">
+              Sinfonía 1er mov.
+            </h3>
+            <audio
+              src="./audios/sinfonia-1er-mov.mp3"
+              controls
+              class="audios d-flex mx-auto"
+            ></audio>
+            <h3 class="py-2 d-flex justify-content-center">
+              Sinfonía 2do mov.
+            </h3>
+            <audio
+              src="./audios/sinfonia-2ndo-mov.mp3"
+              controls
+              class="audios d-flex mx-auto"
+            ></audio>
+            <h3 class="py-2 d-flex justify-content-center">
+              Sinfonía 3er mov.
+            </h3>
+            <audio
+              src="./audios/sinfonia-3er-mov.mp3"
+              controls
+              class="audios d-flex mx-auto mb-5"
+            ></audio>
+          </adiv>
+        </div>
       </section>
-   </div>
-      <!--FIN SECTION 2-->
-   </main>
-   <!--FOOTER-->
-   <footer class="bg-dark text-white">
-      <div class="container">
-         <div class="row d-flex align-items-center">
+    </div>
+    <!--FIN SECTION 2-->
+  </main>
+  <!--FOOTER-->
 
-               <!--LOGO-->
-               <div class="col-12 col-md-5 d-none d-sm-none d-md-block d-flex">
-                  <img
-               src="./img/logoDieguitarra5.png"
-               alt="logo"
-               class="img-logo img-fluid"
-               />
-            </div>
-            <!--REDES SOCIALES-->
-            <div class="col-4 offset-8  mx-auto col-md-7">
-               
-               <ul class="list-unstyled ">
-                  <li id="Redes" class="font-weight-bold text-uppercase  text-warning titulosEnAmarillo fw-bold mt-4">Redes Sociales</li>
-                  <hr class="bg-warning text-center titulosEnAmarillo" style="width: 125px; height: 2px;">
-                  <li>
-                     <a href="https://www.instagram.com/dieguitarra/" target="blank_" class="text-decoration-none text-reset links"><i class="fab fa-instagram text-decoration-none text-reset"> Instagram</i></a>
-                  </li>
-                  <li>
-                     <a href="https://www.facebook.com/diego.lopez.33449" target="blank_" class="text-decoration-none text-reset links"> <i class="fab fa-facebook-square"> Facebook</i></a>
-                  </li>
-                  <li>
-                     <a href="https://www.youtube.com/user/Musiqueeee" target="blank_" class="text-decoration-none text-reset links"><i class="fab fa-youtube"> Youtube</i></a>
-                  </li>
-                  <li>
-                     <i class="far fa-envelope"> dieguitarra@gmail.com</i></a>
-                  </li>
-                  <li>
-                     <i class="fab fa-whatsapp"> 11-5903-0187</i>
-                  </li> 
-               </ul>
-            </div>
-         </nav>
+  <footer class="bg-dark text-white pt-5 pb-4">
+    <div class="container text-center text-md-left">
+      <div class="row text-center text-md-left">
+        <div class="col-md-12 col-lg-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
+            Compañía Dieguitarra
+          </h5>
+          <p>
+            Dieguitarra además de ser músico multi-instrumentista también es una
+            compañía de desarrollo web independiente.
+          </p>
+        </div>
+
+        <div class="col-md-12 col-lg-3 mx-auto mt-3">
+          <h5
+            id="Redes"
+            class="text-uppercase mb-4 font-weight-bold text-warning"
+          >
+            Redes
+          </h5>
+          <ul class="list-unstyled list-inline">
+            <li class="list-inline-item">
+              <a
+                href="https://www.facebook.com/diego.lopez.33449"
+                target="blank_"
+                class="btn-floating btn-sm text-white"
+                style="font-size: 23px"
+                ><i class="fab fa-facebook"></i
+              ></a>
+            </li>
+            <li class="list-inline-item">
+              <a
+                href="https://twitter.com/musiqueeee"
+                target="blank_"
+                class="btn-floating btn-sm text-white"
+                style="font-size: 23px"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </li>
+            <li class="list-inline-item">
+              <a
+                href="https://www.instagram.com/dieguitarra/"
+                target="blank_"
+                class="btn-floating btn-sm text-white"
+                style="font-size: 23px"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </li>
+            <li class="list-inline-item">
+              <a
+                href="https://www.youtube.com/user/Musiqueeee"
+                target="blank_"
+                class="btn-floating btn-sm text-white"
+                style="font-size: 23px"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-12 col-lg-3 mx-auto mt-3">
+          <img
+            src="./img/logoDieguitarra5.png"
+            alt="logo"
+            class="img-logo img-fluid"
+          />
+        </div>
+
+        <div class="col-md-12 col-lg-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
+            Contacto
+          </h5>
+          <p><i class="fas fa-home mr-3"></i> Buenos Aires, Capital Federal</p>
+          <p><i class="fas fa-envelope mr-3"></i> dieguitarra@gmail.com</p>
+          <p><i class="fab fa-whatsapp mr-3"></i> 15 5903 0187</p>
+        </div>
       </div>
-   </div>
-</footer>
-<!--FIN FOOTER-->
+      <hr class="mb-4" />
+      <div class="row align-items-center">
+        <div class="col-">
+          <p>
+            Hecho en Argentina en 2021 por:<strong class="text-warning">
+              Diego López</strong
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--FIN FOOTER-->
 </html>

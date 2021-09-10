@@ -1,0 +1,10 @@
+.navbar {
+  @include tablet {
+  }
+}
+
+.navbar {
+  @include movil {
+    // background: $terColor;
+  }
+}
