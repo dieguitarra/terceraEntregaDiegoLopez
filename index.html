@@ -41,7 +41,7 @@
     <link rel="stylesheet" href="./scss/style.css" />
     <title>Home - Dieguitarra</title>
   </head>
-  <body class="vh-100 bg-ligth text-light"></body>
+  <body class="bodyIndex"></body>
   <!--HEADER-->
   <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
@@ -115,21 +115,12 @@
   <main>
     <!--SECTION 1-->
     <section>
-      <img class="img-fluid banner" src=".//img/banner.png" alt="" />
+      <img class="img-fluid banner" src="./img/banner.png" alt="" />
     </section>
     <!--FIN SECTION 1-->
     <!--SECTION 2-->
     <div class="section-2">
-      <h1
-        class="
-          pt-5
-          mb-3
-          d-flex
-          justify-content-center
-          text-warning
-          titulosEnAmarillo
-        "
-      >
+      <h1 class="titulos mx-auto mb-3 fw-bold pt-3 pb-3 mt-3">
         Obras Compuestas
       </h1>
       <section class="container">
@@ -147,19 +138,19 @@
             <audio
               src="./audios/sonata-1er-mov.mp3"
               controls
-              class="d-flex mx-auto"
+              class="d-flex mx-auto audioApariencia"
             ></audio>
             <h3 class="py-2 d-flex justify-content-center">Sonata 2do mov.</h3>
             <audio
               src="./audios/sonata-2do-mov.mp3"
               controls
-              class="d-flex mx-auto"
+              class="d-flex mx-auto audioApariencia"
             ></audio>
             <h3 class="py-2 d-flex justify-content-center">Sonata 3er mov.</h3>
             <audio
               src="./audios/sonata-3er-mov.mp3"
               controls
-              class="d-flex mx-auto mb-5"
+              class="d-flex mx-auto mb-5 audioApariencia"
             ></audio>
           </div>
           <div class="col-lg-5 offset-lg-2 col-lg-5 col-sm-12 text-dark">
@@ -177,7 +168,7 @@
             <audio
               src="./audios/cuarteto-de-cuerdas-I.mp3"
               controls
-              class="audios d-flex mx-auto"
+              class="audios d-flex mx-auto audioApariencia"
             ></audio>
             <h3 class="py-2 d-flex justify-content-center">
               Cuarteto de cuerdas 2do mov.
@@ -185,7 +176,7 @@
             <audio
               src="./audios/cuarteto-de-cuerdas-II.mp3"
               controls
-              class="audios d-flex mx-auto"
+              class="audios d-flex mx-auto audioApariencia"
             ></audio>
             <h3 class="py-2 d-flex justify-content-center">
               Cuarteto de cuerdas 3er mov.
@@ -193,7 +184,7 @@
             <audio
               src="./audios/cuarteto-de-cuerdas-III.mp3"
               controls
-              class="audios mb-4 d-flex mx-auto mb-5"
+              class="audios mb-4 d-flex mx-auto mb-5 audioApariencia"
             ></audio>
           </div>
         </div>
@@ -215,7 +206,7 @@
             <audio
               src="./audios/sexteto-de-camara-I.mp3"
               controls
-              class="audios d-flex mx-auto"
+              class="audios d-flex mx-auto audioApariencia"
             ></audio>
             <h3 class="py-2 d-flex justify-content-center">
               Sexteto de cámara 2do mov.
@@ -223,7 +214,7 @@
             <audio
               src="./audios/sexteto-de-camara-II.mp3"
               controls
-              class="audios d-flex mx-auto"
+              class="audios d-flex mx-auto audioApariencia"
             ></audio>
             <h3 class="py-2 d-flex justify-content-center">
               Sexteto de cámara 3er mov.
@@ -231,7 +222,7 @@
             <audio
               src="./audios/sexteto-de-camara-III.mp3"
               controls
-              class="audios d-flex mx-auto"
+              class="audios d-flex mx-auto audioApariencia"
             ></audio>
             <h3 class="py-2 d-flex justify-content-center">
               Sexteto de cámara 4to mov.
@@ -239,7 +230,7 @@
             <audio
               src="./audios/sexteto-de-camara-IV.mp3"
               controls
-              class="audios d-flex mx-auto"
+              class="audios d-flex mx-auto audioApariencia"
             ></audio>
             <h3 class="py-2 d-flex justify-content-center">
               Sexteto de cámara 5to mov.
@@ -247,7 +238,7 @@
             <audio
               src="./audios/sexteto-de-camara-V.mp3"
               controls
-              class="audios d-flex mx-auto"
+              class="audios d-flex mx-auto audioApariencia"
             ></audio>
             <h3 class="py-2 d-flex justify-content-center">
               Sexteto de cámara 6to mov
@@ -255,7 +246,7 @@
             <audio
               src="./audios/sexteto-de-camara-VI.mp3"
               controls
-              class="audios d-flex mx-auto mb-5"
+              class="audios d-flex mx-auto mb-5 audioApariencia"
             ></audio>
           </div>
           <adiv class="col-lg-5 offset-lg-2 col-lg-5 col-sm-12 text-dark">
@@ -273,7 +264,7 @@
             <audio
               src="./audios/sinfonia-1er-mov.mp3"
               controls
-              class="audios d-flex mx-auto"
+              class="audios d-flex mx-auto audioApariencia"
             ></audio>
             <h3 class="py-2 d-flex justify-content-center">
               Sinfonía 2do mov.
@@ -281,7 +272,7 @@
             <audio
               src="./audios/sinfonia-2ndo-mov.mp3"
               controls
-              class="audios d-flex mx-auto"
+              class="audios d-flex mx-auto audioApariencia"
             ></audio>
             <h3 class="py-2 d-flex justify-content-center">
               Sinfonía 3er mov.
@@ -289,16 +280,54 @@
             <audio
               src="./audios/sinfonia-3er-mov.mp3"
               controls
-              class="audios d-flex mx-auto mb-5"
+              class="audios d-flex mx-auto mb-5 audioApariencia"
             ></audio>
           </adiv>
         </div>
       </section>
     </div>
     <!--FIN SECTION 2-->
+    <!--SECTION 3-->
+    <section>
+      <h2 class="text-center fw-bold p-5 titulos">Música Incidental</h2>
+      <div class="container">
+        <div class="row">
+          <iframe
+            class="col-12 col-xl-6 mb-4 px-4"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/mwr0BsL3YKU"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            class="col-12 col-xl-6 mb-4 px-4"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/EKoH46Vxf64"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+      <div class="card w-50 mx-auto mb-5 mt-2 bg-dark text-light opacity-75">
+        <div class="card-body">
+          <h5 class="card-title text-center">Música para cine</h5>
+          <p class="card-text text-center">
+            Aqui podremos apreciar dos composiciones musicales para cine,
+            compuestas en el año 2018 en la universidad nacional de las artes
+            (UNA) para la cátedra de Música Incidental.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--FIN SECTION 3-->
   </main>
   <!--FOOTER-->
-
   <footer class="bg-dark text-white pt-5 pb-4">
     <div class="container text-center text-md-left">
       <div class="row text-center text-md-left">
@@ -311,7 +340,6 @@
             compañía de desarrollo web independiente.
           </p>
         </div>
-
         <div class="col-md-12 col-lg-3 mx-auto mt-3">
           <h5
             id="Redes"
@@ -365,7 +393,6 @@
             class="img-logo img-fluid"
           />
         </div>
-
         <div class="col-md-12 col-lg-3 mx-auto mt-3">
           <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
             Contacto
@@ -377,13 +404,16 @@
       </div>
       <hr class="mb-4" />
       <div class="row align-items-center">
-        <div class="col-">
+        <div class="col-12">
           <p>
             Hecho en Argentina en 2021 por:<strong class="text-warning">
               Diego López</strong
             >
           </p>
         </div>
+      </div>
+      <div>
+        <a class="goToTop" href="#"> <i class="fas fa-arrow-up"></i></a>
       </div>
     </div>
   </footer>

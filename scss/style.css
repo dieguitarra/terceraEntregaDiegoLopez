@@ -32,16 +32,42 @@
 
 /*CONTACTO*/
 .bodyContacto {
-  background-image: url(../img//fondo.jpg);
+  background-image: url(../img/comoLeerPartituras.jpg);
   background-size: cover;
 }
 
-body {
-  background: white;
+.tituloContacto {
+  text-shadow: 0.1em 0.1em 0.2em black;
 }
 
-.titulosEnAmarillo {
-  text-shadow: 0.1em 0.1em 0.2em black;
+.goToTop {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #27ae60;
+  bottom: 40px;
+  right: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 22px;
+}
+
+.bodyIndex {
+  background-image: url(../img/fondo.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.titulos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 50px;
 }
 
 .links {
@@ -79,6 +105,12 @@ body {
   width: 100%;
 }
 
+.audioApariencia {
+  background-color: rgba(0, 0, 0, 0.473);
+  padding: 2px;
+  border-radius: 30px;
+}
+
 /*SOBRE MI*/
 .bodySobreMi {
   background: black;
@@ -91,8 +123,9 @@ body {
 }
 
 .carousel-inner {
-  background-image: url(../img/musicaLibreGratis.jpg);
+  background-image: url(../img/comoLeerPartituras.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position-x: center;
 }
 /*# sourceMappingURL=style.css.map */
